@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- font awesome icons -->
+	<script src="https://kit.fontawesome.com/928c47399c.js" crossorigin="anonymous"></script>
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Poly&family=Open+Sans&family=Bree+Serif&family=Raleway&family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+	<!-- Icon library for mobile button -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="project1.css">
+
+	<title>NAVBAR</title>
+</head>
+<body>
+	<!-- top -->
+	<div class="graybar">
+		<p>Amazon Landscaping Design & Handyman Services</p>
+		<p><i class="fas fa-home"></i> 226 Forest Road, West Haven, CT</p>
+		<p><i class="fas fa-phone"></i>(123) 456 - 7890</p>
+		<p><i class="far fa-clock"></i>Mon-Sat 8am-8pm</p>
+	</div>
+
+	<!-- nav bar -->
+
+	<header>
+		<!-- mobile hamburger menu -->
+		<div class="menu-wrap">
+			<input id="myCheck" type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+		    <div>
+		    	<div>
+		    		<ul onclick="uncheck()" class="links">
+		    			<li><a  href="#about">ABOUT</a></li>
+		    			<li><a  href="#services">SERVICES</a></li>
+		    			<li><a  href="#reviews">REVIEWS</a></li>
+		    			<li><a  href="#contact">CONTACT US</a></li>
+		    		</ul>
+		    	</div>
+		    </div>
+			</div>
+		</div>
+
+		<img class="logo" src="amazonlogo.png" alt="logo">
+		
+		<!-- normal nav -->
+		<nav>
+			<ul class="nav-links">
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#about">ABOUT US</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#reviews">REVIEWS</a></li>
+				<li><a href="#contact">CONTACT US</a></li>
+			</ul>
+		</nav>
+		
+
+		<div class="social">
+		   <a href="#facebook"><i class="fab fa-facebook"></i></a>
+		   <a href="#instagram"><i class="fab fa-instagram"></i></a>
+		   <a href="https://www.yelp.com/biz/amazon-landscape-design-and-handyman-services-west-haven"><i class="fab fa-yelp"></i></a>
+		</div>
+		
+	</header>
+
+<!-- banner -->
+
+    <div class="img-container">
+    	<div class="inner-container">
+    		<h1>PROFESSIONAL DESIGNED LANDSCAPING<br> & MORE</h1>
+    		<a href="#contact"><button class="transbtn">GET IN TOUCH</button></a>
+			<a href="#about"><button class="greenbtn">MORE ABOUT US</button></a>
+			<h3>FREE ESTIMATES</h3>
+			<h2>QUALITY SERVICE, GUARANTEED.</h2>
+    	</div>
+    </div>
+
+
+
+	<div class="about-section" id="about">
+		<h1>About <span style="color: #c9e265">Our Company</span></h1>
+		<div class="display">
+            <div class="one-p">
+            <p>Amazon Landscape & Design is a full service lawn and landscape maintenance company that caters to residential and commercial properties.</p>
+			<p>We are comprised of a group of highly skilled lawn care professionals who are commited to a high degree of attention-to-detail and customer satisfation.</p>
+			<p>Our employees take pride in each and every property they service and it shows by our reputation in the community. Given our 15+ years of experience, we are certain we have the skills needed to exceed your expectations!</p>
+            </div>
+			
+            <div class="two-p">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor.</p>
+            </div>
+			
+		</div>
+		
+
+	</div>
+
+    <div class="service-section" id="services">
+    	<div class="service-box">
+    		<h2>Services We Provide</h2>
+
+    		<div class="list-flex">
+    			<ul>
+    			<li>Landscape Design & Construction</li>
+    			<li>Lawn Maintenance</li>
+    			<li>Masonry</li>
+    			<li>Trimming & Scuplting</li>
+    			<li>Fish Pod Design & Construction</li>
+    			<li>Flower Planting</li>
+    			<li>Garden Design</li>
+    			<li>Brick Repair</li>
+    			<li>Irrigation Installation</li>
+    			<li>Land Clearing</li>
+    		</ul>
+    		<ul>
+    			<li>Snow Removal</li>
+    			<li>Stonework</li>
+    			<li>Tree Removal</li>
+    			<li>Brick Repair</li>
+    			<li>Irrigation Installation</li>
+    			<li>Land Clearing</li>
+    			<li>Leaf Removal</li>
+    			<li>Landscape Design & Construction</li>
+    			<li>Lawn Maintenance</li>
+    			<li>Masonry</li>
+    		</ul>
+    		</div>
+
+    		
+    		
+    	</div>
+
+
+    </div>
+
+    <div class="review-section" id="reviews">
+    	<h1 class="review-header">Our Customers Love Us!</h1>
+
+    	<img id="review1" src="review1.png">
+    	<img id="review2" style="margin-bottom: 30px" src="review2.png">
+    	
+    </div>
+   
+    <div class="contact-section" id="contact">
+    	<div class="contact-wrap">
+    		<div class="contact-us">
+    		  <h2>Amazon Landscape & Handyman Services</h2> 
+    		  <h3>is <span style="color: #c9e265">always there for you.</span></h3>
+    		  <h4>For more information don't hesitate call us now!</h4>
+    		  <h4> Owner: Marco - (123) 456 -7890</h4>
+    		  <h4> Administrative Assistant: Tabitha - (123) 456 -7890</h4>
+    		  <h4> Office Assistant: Susana - (123) 456 -7890</h4>
+	    	</div>
+	    	<div class="form">
+	    	  <div class="box">
+	    	  	<h1>Request <span style="color: #c9e265">Free Estimate</span></h1>
+
+	    	  	<div class="form-display-grid">
+	    	  		<input id="txtname" type="text" name="Name" placeholder="Your Name">
+		    	  	<input id="txtemail" type="text" name="Email" placeholder="Your Email">
+		    	  	<textarea id="txtarea" placeholder="Your Message"></textarea>
+		    	  	<input id="submitbtn" value="Request Quote"type="submit" name="Submit">
+	    	  	</div>
+
+	    	  	
+	    	  </div>
+	    	</div>
+    	</div>
+    </div>
+
+<!-- grass,brick,footer -->
+    <div class="wrap-img">
+    	</div>
+    <div class="brick-section">
+    </div>
+    <div class="footer-section">
+    	<p>Amazon Landscaping Design & Handyman Services LLC © 2020</p>
+    	<p>Built by biancascode.com</p>
+    </div>
+
+
+
+<script type="text/javascript" src="project1.js"></script>
+</body>
+</html>
